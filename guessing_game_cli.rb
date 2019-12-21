@@ -11,6 +11,10 @@ def run_guessing_game
   if input.to_i ==num
     puts"You guessed the correct number!"
   end
+  
+  if input=="exit"
+    puts "Goodbye!
+  end
   # if input =="exit"
   #   puts "Goodbye!"
   # elsif input !=num
